@@ -1,0 +1,23 @@
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+      -ms-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.panel {
+  background: #eee;
+  padding: 40px 60px;
+  border-radius: 6px;
+  width: 40em;
+  margin: 50px auto;
+  max-width: 100%;
+}
+
+a, a:link, a:active, a:visited {
+  color: #00c7b7;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}

@@ -1,0 +1,103 @@
+body {
+  font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif;
+  background-image: url(/images/pattern.svg);
+}
+
+html, body {
+  height: 100%;
+  margin: 0px;
+}
+
+#app {
+  height: 100%;
+}
+
+div.app-container {
+  height: inherit;
+}
+
+.header {
+  width: 98%;
+  padding: 1%;
+  position: absolute;
+  background-color: #FD602E;
+  color: #FFF;
+}
+
+.header h1 {
+  margin: 0px;
+  position: relative;
+  float: left;
+  font-weight: 600;
+}
+
+.container {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+div.row h3 {
+  margin: 0px;
+  color: #fff;
+  font-size: 25px;
+  font-weight: 400;
+}
+
+.column-center {
+  width: 350px;
+  margin: 0 auto;
+}
+
+.column-center > div.row {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 10px;
+}
+
+.column-right {
+  position: relative;
+  float: right;
+  display: flex;
+}
+
+.column-right > div.row:not(:last-child) {
+  margin-right: 10px;
+}
+
+input {
+  height: 24px;
+  padding: 6px 12px;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #555;
+  background-color: #fff;
+  background-image: none;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+  box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+  -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+  -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+   transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+
+button {
+  padding: 6px 12px;
+  margin-bottom: 0;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  cursor: pointer;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  color: #fff;
+  background-color: #5cb85c;
+  border-color: #4cae4c;
+}
